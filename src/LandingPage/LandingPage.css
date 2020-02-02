@@ -1,0 +1,51 @@
+ /* 
+        - Header
+    */
+    [role="banner"] {
+        width: 100%;
+        margin-top: 8%;
+        padding: 26% 0%;
+    }
+    
+    [role="banner"] h1{
+        width: 100%;
+    
+        margin-bottom: 10%;
+    
+        text-align: center;
+    }
+    
+    [role="banner"] button{
+        padding: 1%;
+        border: 1px solid black;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    [role="banner"] button:hover{
+        border: 1px solid grey;
+        background-color: white;
+    }
+    
+    section {
+        min-height: 100px;
+        padding: 30px 15px;
+        background-color: #bbb;
+      }
+      
+      section header{
+        padding: 25px 25px;
+        margin-bottom: 20px;
+      }
+      
+      section:nth-child(even) {
+        background-color: lightgrey;
+      }
+    
+    li, li a{
+      list-style-type: none;
+      text-decoration: none;
+    }
+    
+    
+    
