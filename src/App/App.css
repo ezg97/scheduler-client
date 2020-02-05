@@ -19,59 +19,6 @@ body {
     line-height: 1;
   }
   
-/* 
-    NAVIGATION BAR
-*/
-.app_nav{
-    background-color: lightgrey;
-}
-
-.app_nav{
-    height: 8%;
-    width: 100%;
-
-    padding: 2%;
-
-    background-color: lightgrey;
-    color: black;
-    border-bottom: 1px solid black;
-    
-    display: flex;
-    justify-content: start;
-    align-items: center;
-
-    position: fixed;
-
-}
-
-.app_nav ul{
-    width: 100%;
-    height: 100%;
-
-    display: inline-flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.app_nav ul li{
-    font-size: 20px;
-}
-
-.app_nav ul li a:hover, .app_nav ul li a:focus,
-.app_nav ul li:hover, .app_nav ul li:focus{
-    color:white;
-}
-
-.app_nav ul li a:visited, .app_nav ul li a:visited,
-.app_nav ul li:visited, .app_nav ul li:visited{
-    color:black;
-}
-
-.app_nav ul li a:visited:hover, .app_nav ul li a:visited:hover,
-.app_nav ul li:visited:hover, .app_nav ul li:visited:hover{
-    color:white;
-}
-
 
 
 /* ----------------------------- */
