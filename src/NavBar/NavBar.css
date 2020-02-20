@@ -54,6 +54,9 @@
 /*
     Nav Links
 */
+.navbar a{
+    color: white;
+}
 .navbar a:visited{
     color: white;
 }
