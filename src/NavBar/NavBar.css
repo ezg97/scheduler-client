@@ -1,9 +1,6 @@
 /* 
     NAVIGATION BAR
 */
-.app_nav{
-    background-color: a;
-}
 
 .app_nav{
     height: 8%;
@@ -20,7 +17,7 @@
     align-items: center;
 
     position: fixed;
-
+    top: 0;
 }
 
 .app_nav ul{
@@ -33,7 +30,7 @@
 }
 
 .app_nav ul li{
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .logos span a{
@@ -53,21 +50,18 @@
     font-weight: bold;
 }
 
-.app_nav ul li a:hover, .app_nav ul li a:focus,
-.app_nav ul li:hover, .app_nav ul li:focus{
-    color:gray;
+
+/*
+    Nav Links
+*/
+.navbar a:visited{
+    color: white;
 }
 
-.app_nav ul li a:visited, .app_nav ul li a:visited,
-.app_nav ul li:visited, .app_nav ul li:visited{
-    color:white;
-}
-
-.app_nav ul li a:visited:hover, .app_nav ul li a:visited:hover,
-.app_nav ul li:visited:hover, .app_nav ul li:visited:hover{
-    color:gray;
-}
-
+/* Must restate the hover and focus or else the :visited portion would override it*/
+.navLink a:hover, .navLink a:focus{
+    color: grey;
+} 
 
 /*---------------- RESPONSIVE LAYOUT ----------------*/
 
@@ -83,14 +77,14 @@
         padding: 2%;
     }
     .app_nav ul li{
-        font-size: 30px;
+        font-size: 23px;
     }
 
     .home{
-        font-size: 45px;
+        font-size: 33px;
     }
     .log-out{
-        font-size: 35px;
+        font-size: 23px;
     }
     
 }
@@ -101,16 +95,14 @@
 ----------------------*/
 @media screen and (min-width: 1024px) {
     .app_nav ul li{
-        font-size: 36px;
+        font-size: 28px;
     }
 
     .home{
-        font-size: 50px;
+        font-size: 38px;
     }
     .log-out{
-        font-size: 40px;
+        font-size: 28px;
     }
     
-
-
 }

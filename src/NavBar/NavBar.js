@@ -17,13 +17,13 @@ class NavBar extends React.Component{
             {(bool === 'false')
 
             /* IF NOT SIGNED IN */
-            ?<ul>
+            ?<ul className='navbar navLink'>
               <li> <NavLink to="/">Anytime Scheduler</NavLink> </li>
               <li> <NavLink to="/demo">Demo</NavLink> </li>
             </ul>
 
             /* IF SIGNED IN */
-            :<ul>
+            :<ul className='navbar navLink'>
                 <li> <NavLink to="/home">Anytime Scheduler</NavLink> </li>
                 <li className='logos'>
                     <span className='home'> <NavLink to="/home">&#8962;</NavLink> </span>

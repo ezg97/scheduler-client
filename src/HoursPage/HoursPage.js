@@ -15,12 +15,13 @@ class HoursPage extends React.Component{
     render(){
      
         return(
-        <div>
+        <div className="page-container crud">
                       
             {/* Header */}
             <header className='header'>
                 <h1>{business[0].name}</h1>
-                <h2>Operation Hours</h2>
+                <p>Select the day from the drop down menu, 
+                    then select the hours of operation</p>
             </header>
 
            {/* 

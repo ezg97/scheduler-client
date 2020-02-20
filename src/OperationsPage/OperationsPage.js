@@ -13,7 +13,7 @@ class OperationsPage extends React.Component{
     render(){
      
         return(
-        <div className='operation-page'>
+        <div className="page-container">
                       
             {/* Header */}
             <header className='header'>
@@ -23,9 +23,10 @@ class OperationsPage extends React.Component{
             
             {/* List of choices */}
             <div className='operations-links'>
-                <ul>
+                <ul className="navLink">
                     <li> <NavLink to="/employees">Employees</NavLink> </li>
-                    <li> <NavLink to="/management">Management</NavLink> </li>
+                    <li> <NavLink to="/hours">Operation Hours</NavLink> </li>
+                    <li> <NavLink to="/labor">Labor Quantity</NavLink> </li>
                     {/*<li> <NavLink to="/account">Account Settings</NavLink> </li>*/}
                 </ul>
                 

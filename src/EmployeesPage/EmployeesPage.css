@@ -1,7 +1,6 @@
 #select-employees{
     border: 1px solid black;
     margin: auto 0;
-    background-color: lightgray;
     color: black;
     font-size: 14px;
     padding: 5px;
@@ -20,9 +19,6 @@
 
     margin-top: 25px;
     line-height: 2;
-
-    border-top: 1px dashed black;
-
 }
 /*
 .section-form{
@@ -39,6 +35,10 @@
 
     font-size: 20px;
 }*/
+.employee-form section{
+    background-color: rgb(240,240,240);
+
+}
 
 .section-form label{
     margin-right: 2%;
@@ -117,6 +117,8 @@
 
             font-size: 30px;
         }
+
+        
       
     }
   

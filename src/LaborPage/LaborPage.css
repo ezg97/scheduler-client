@@ -1,7 +1,6 @@
 #select-labor{
     border: 1px solid black;
     margin: auto 0;
-    background-color: lightgray;
     color: black;
     padding: 5px;
     font-size: 14px;
@@ -17,11 +16,7 @@
     justify-content: center;
     align-items: center;
 
-    margin-top: 25px;
-
-    border-top: 1px dashed black;
-    
-
+    margin-top: 25px;  
 }
 
 /* - Section of the form -*/

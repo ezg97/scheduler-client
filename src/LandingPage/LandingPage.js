@@ -12,10 +12,10 @@ class LandingPage extends React.Component{
 
 
         return(
-        <div>
-            <header className='landing-header'>
+        <div className='page-container'>
+            <header className='landing header'>
             
-                <h1>Work made easy.</h1>
+                <h1>Work made easy</h1>
                 <button className='signup-button' type='button'>Sign up!</button>
             </header>
             {/*

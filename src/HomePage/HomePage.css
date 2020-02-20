@@ -1,4 +1,4 @@
-.menu-container{
+/* .menu-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,28 +24,10 @@
 }
 
 
-.scheduling a:hover, .scheduling a:focus,
-.operations a:hover, .operations a:focus{
-    color:white;
-}
-
-.scheduling a:visited, .scheduling a:visited,
-.operations a:visited, .operations a:visited{
-    color:black;
-}
 
 
-.scheduling a:visited:hover, .scheduling a:visited:hover,
-.operations a:visited:hover, .operations a:visited:hover{
-    color:white;
-}
-
-/*---------------- RESPONSIVE LAYOUT ----------------*/
 
 
-/* ----------
-        COMPUTER SCREEN REGULAR 
-----------------------*/
 @media screen and (min-width: 768px) {
     
     .scheduling, .operations{
@@ -63,9 +45,6 @@
 }
   
 
-/* ---------------------- 
-        COMPUTER SCREEN LARGE 
-----------------------*/
 @media screen and (min-width: 1024px) {
     
     .scheduling, .operations{
@@ -78,4 +57,4 @@
     }
     
 
-}
+} */

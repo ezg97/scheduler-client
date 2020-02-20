@@ -11,12 +11,13 @@ class EmployeesPage extends React.Component{
     render(){
      
         return(
-        <div>
+        <div className="page-container crud">
                       
             {/* Header */}
             <header className='header'>
                 <h1>{business[0].name}</h1>
-                <h2>Employees</h2>
+                <p>Select an employee from the drop down menu, 
+                    then edit or delete the employee.</p>
             </header>
             
             {/* List of choices */}

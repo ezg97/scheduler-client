@@ -1,24 +1,16 @@
  /* 
         - Header
-    */
-    .landing-header {
-        width: 100%;
-        margin-top: 40px;
-        padding: 60px 0%;
-      
+*/
+    .landing.header{
+
+      height: 35%
     }
-    
-    .landing-header h1{
-        width: 100%;
-    
-        margin-bottom: 15px;
-    
-        text-align: center;
+    .landing.header h1{
+      /* padding-top: 2%;*/
+      padding-bottom: 5%; 
     }
 
-  
-    
-    .landing-header button{
+    .landing button{
         padding: 5px;
         border: 1px solid black;
         border-radius: 5px;
@@ -30,27 +22,27 @@
         width: 90px;
     }
     
-    .landing-header button:hover, .landing-header button:focus,
+    .landing button:hover, .landing button:focus,
     .signup-box-button:hover, .signup-box-button:focus{
         border: 1px solid grey;
         background-color: white;
     }
 
-    
-
     /* WHOLE INFO SECTION*/
     .section-info{
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
+
+      flex-flow: 1;
     }
     
     /* INFO SECTIONS */
-    
-    .info {
+     .info {
         min-height: 100px;
         padding: 30px 15px;
-        max-width: 550px;
+        max-width: 550px; 
 
         background-color: #bbb;
       }
@@ -67,7 +59,7 @@
     li, li a{
       list-style-type: none;
       text-decoration: none;
-    }
+    } 
     
     
     /*  --------------
@@ -89,79 +81,59 @@
         width: 100%;
         margin-top: 60px;
         padding: 80px 0%;
-      
+      }
+    
+      .landing-header h1{
+          width: 100%;
+          margin-bottom: 15px;
+          text-align: center;
+      }
     }
     
-    .landing-header h1{
-        width: 100%;
-    
-        margin-bottom: 15px;
-    
-        text-align: center;
-    }
-
-      .info {
-        padding: 20px 100px 30px;
-        background-color: #bbb;
-        max-width: 700px;
-      }
-
-      .info header{
-        font-size: 24px;
-        margin-bottom: 20px;
-      }
-
-      .info p{
-        font-size: 24px;
-      }
-
-    }
     /* ---------------------- 
           COMPUTER SCREEN LARGE 
     ----------------------*/
     @media screen and (min-width: 1024px) {
   
-.landing-header {
-  width: 100%;
-  margin-top: 5%;
-  padding: 5% 0%;
+      .landing-header {
+        width: 100%;
+        margin-top: 5%;
+      }
 
-}
+      .landing-header h1{
+        width: 100%;
+        margin-bottom: 15px;
 
-.landing-header h1{
-  width: 100%;
+        text-align: center;
+      }
 
-  margin-bottom: 15px;
+        .section-info{
+          height: 50%;
+          overflow: hidden;
+        }
 
-  text-align: center;
-}
+      .info {
+        background-color: #bbb;
 
-.info {
-  background-color: #bbb;
-  width: 80%;
-  max-width: 1500px;
+        height: 100%;
+        min-height: 100px;
+        padding: 30px 15px;
+        max-width: 550px; 
+      }
 
-  padding: 2% 16% 4%;
-}
+      .landing-header button{
 
-.info header{
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-
-.info p{
-  font-size: 24px;
-}
-
-.landing-header button{
-
-  font-size: 20px;
-  margin-top: 15px;
+        font-size: 20px;
+        margin-top: 15px;
 
 
-  width: 120px;
-}
+        width: 120px;
+      }
 
-  
-
-}
+      /* SECTION INFO */
+      .section-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+  }

@@ -21,7 +21,7 @@ class Demo extends React.Component{
     render(){
      
         return(
-        <div>
+        <div className="page-container crud">
             <header className='header'>
                 <h1>Weekly Schedule.</h1>
             </header>
