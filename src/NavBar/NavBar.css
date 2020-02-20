@@ -54,21 +54,38 @@
 /*
     Nav Links
 */
+
+
+/* All links */
+.navLink a{
+    color: black;
+}
+
+/* Visited must be above "focus" or "hover" or else it will override those*/
+.navLink a:visited{
+    color: black;
+}
+
+.navLink a:hover, .navLink a:focus{
+    color: grey;
+} 
+
+
+/* Specific for just the links in the Navbar */
 .navbar a{
     color: white;
 }
 
+/* Visited must be above "focus" or "hover" or else it will override those*/
 .navbar a:visited{
     color: white;
 }
 
-/* Must restate the hover and focus or else the :visited portion would override it*/
-.navLink a{
-    color: white;
-}
-.navLink a:hover, .navLink a:focus{
+.navbar a:hover, .navbar a:focus{
     color: grey;
 } 
+
+
 
 /*---------------- RESPONSIVE LAYOUT ----------------*/
 
