@@ -57,11 +57,15 @@
 .navbar a{
     color: white;
 }
+
 .navbar a:visited{
     color: white;
 }
 
 /* Must restate the hover and focus or else the :visited portion would override it*/
+.navLink a{
+    color: white;
+}
 .navLink a:hover, .navLink a:focus{
     color: grey;
 } 
